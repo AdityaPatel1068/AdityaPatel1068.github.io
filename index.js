@@ -166,9 +166,9 @@ function populateExp_Edu(items, id) {
       (item) => html`
         <article class="timeline-entry animate-box">
           <div class="timeline-entry-inner">
-            <div class="timeline-icon color-2">
-              <i class="fa fa-${item.icon}"></i>
-            </div>
+            <div class="timeline-icon logo-icon">
+  <img src="${item.logo}" alt="${item.title} logo" />
+</div>
             <div class="timeline-label">
               <div class="exp-heading">
                 <p class="blog-heading">${item.title}</p>
