@@ -57,9 +57,6 @@ function populateSkills(items, id) {
   `;
   render(skillsTemplate, skillsTag);
 }
-  
-  render(skillsTemplate, skillsTag);
-}
 
 function populateBlogs(items, id) {
   const projectdesign = document.getElementById(id);
