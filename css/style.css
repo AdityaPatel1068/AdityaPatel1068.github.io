@@ -1355,3 +1355,8 @@ strong {
   text-transform: uppercase;
   display: inline-block;
 }
+
+.tags-group h4 {
+  margin-bottom: 5px;
+  font-weight: 600;
+}
