@@ -45,13 +45,18 @@ function populateBio(items, id) {
 function populateSkills(items, id) {
   const skillsTag = document.getElementById(id);
 
+  const allSkills = items
+    .flatMap((line) => line.split(",")) // split by comma
+    .map((skill) => skill.trim())       // trim whitespace
+    .filter(Boolean);                   // remove empty strings
+
   const skillsTemplate = html`
     <div class="tags-container">
-      ${items.map(
-        (item) => html`<span class="tag">${item}</span>`
-      )}
+      ${allSkills.map((skill) => html`<span class="tag">${skill}</span>`)}
     </div>
   `;
+  render(skillsTemplate, skillsTag);
+}
   
   render(skillsTemplate, skillsTag);
 }
