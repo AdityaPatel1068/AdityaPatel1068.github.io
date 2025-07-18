@@ -181,11 +181,13 @@ function populateExp_Edu(items, id) {
         </article>
       `
     )}
+    /*
     <article class="timeline-entry begin animate-box">
       <div class="timeline-entry-inner">
         <div class="timeline-icon color-2"></div>
       </div>
     </article>
+    */
   `;
 
   render(timelineTemplate, mainContainer);
