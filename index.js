@@ -44,20 +44,22 @@ function populateBio(items, id) {
 
 function populateSkills(items, id) {
   const skillsTag = document.getElementById(id);
-
-  const allSkills = items
-    .flatMap((line) => line.split(",")) // split by comma
-    .map((skill) => skill.trim())       // trim whitespace
-    .filter(Boolean);                   // remove empty strings
-
   const skillsTemplate = html`
-    <div class="tags-container">
-      ${allSkills.map((skill) => html`<span class="tag">${skill}</span>`)}
+    <div class="tags-section">
+      ${items.map(
+        (section) => html`
+          <div class="tags-group">
+            <h4>${section.category}</h4>
+            <div class="tags-container">
+              ${section.tags.map((tag) => html`<span class="tag">${tag}</span>`)}
+            </div>
+          </div>
+        `
+      )}
     </div>
   `;
   render(skillsTemplate, skillsTag);
 }
-
 function populateBlogs(items, id) {
   const projectdesign = document.getElementById(id);
   const createCategoryBadges = (categories) => html`
