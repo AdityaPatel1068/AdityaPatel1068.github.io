@@ -17,7 +17,7 @@ async function fetchBlogsFromMedium(url) {
   try {
     const response = await fetch(url);
     const { items, feed } = await response.json();
-    document.getElementById("profile-img").src = "./assets/aditya.png";
+    document.getElementById("profile-img").src = "./aditya.png";
     populateBlogs(items, "blogs");
   } catch (error) {
     throw new Error(
