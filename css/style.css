@@ -1338,3 +1338,20 @@ strong {
 	  font-size: 14px;
 	}
   }
+.tags-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.tag {
+  background-color: #a11;
+  color: #fff;
+  padding: 6px 12px;
+  font-size: 12px;
+  border-radius: 6px;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: inline-block;
+}
