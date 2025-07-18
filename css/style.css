@@ -434,7 +434,12 @@ body.offcanvas .colorlib-nav-toggle {
   font-weight: 600;
   font-family: "Montserrat", Georgia, serif;
 }
-
+.timeline-icon.logo-icon img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: contain;
+}
 .timeline-centered {
   position: relative;
   margin-bottom: 30px;
