@@ -45,13 +45,14 @@ function populateBio(items, id) {
 function populateSkills(items, id) {
   const skillsTag = document.getElementById(id);
 
-  const skillsTemplate = html` ${items.map(
-    (item) => html` <div class="col-md-12 animate-box">
-      <div class="progress-wrap">
-        <li class="skill-item">${item}</li>
-      </div>
-    </div>`
-  )}`;
+  const skillsTemplate = html`
+    <div class="tags-container">
+      ${items.map(
+        (item) => html`<span class="tag">${item}</span>`
+      )}
+    </div>
+  `;
+  
   render(skillsTemplate, skillsTag);
 }
 
