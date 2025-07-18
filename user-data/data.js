@@ -5,11 +5,66 @@ export const bio = [
 ];
 
 export const skills = [
-  "Python, SQL, R, MATLAB, T-SQL, PL/SQL",
-  "Scikit-learn, TensorFlow, NumPy, Pandas, statsmodels, Jupyter, Excel Macros",
-  "Talend, Apache NiFi, Apache Airflow, AWS Glue, Redshift, Snowflake, Azure Data Factory",
-  "Power BI, Tableau, Google Data Studio, DAX, SSIS, Informatica PowerCenter",
-  "FHIR, HL7, EDI X12, RBAC, HIPAA, CMS, Basel III, CCAR, AML, OFAC",
+  {
+    category: "Programming Languages",
+    tags: ["Python", "R", "SQL", "T-SQL", "PL/SQL", "MySQL", "PostgreSQL", "Oracle"]
+  },
+  {
+    category: "Data Visualization",
+    tags: ["Tableau", "Power BI", "Google Data Studio", "Matplotlib", "Seaborn", "ggplot2"]
+  },
+  {
+    category: "Data Integration & ETL Tools",
+    tags: ["Talend", "Apache NiFi", "Apache Airflow", "SSIS", "Informatica PowerCenter", "AWS Glue", "Azure Data Factory"]
+  },
+  {
+    category: "Cloud Platforms & Warehousing",
+    tags: ["AWS", "Azure", "Redshift", "Glue", "Snowflake", "Synapse Analytics"]
+  },
+  {
+    category: "Data Modeling & Reporting",
+    tags: ["Star Schema", "Snowflake Schema", "DAX", "Window Functions", "Recursive CTEs", "Stored Procedures"]
+  },
+  {
+    category: "Healthcare Standards",
+    tags: ["EDI X12", "HL7", "FHIR", "ICD-10", "CPT", "HEDIS", "MACRA", "QPP"]
+  },
+  {
+    category: "ML & Statistical Analysis",
+    tags: ["Scikit-learn", "TensorFlow", "RFM", "K-Means", "ARIMA", "A/B Testing", "Regression", "Holt-Winters"]
+  },
+  {
+    category: "Business Analysis",
+    tags: ["BRD", "FRD", "SRS", "Use Cases", "BPM", "Data Flow Diagrams"]
+  },
+  {
+    category: "Compliance & Regulatory",
+    tags: ["HIPAA", "CMS", "NCQA", "OFAC", "AML", "SOX", "Basel III", "CCAR", "RBAC"]
+  },
+  {
+    category: "APIs & Integration",
+    tags: ["RESTful APIs", "FHIR API", "Azure API Management"]
+  },
+  {
+    category: "Excel & Office Tools",
+    tags: ["Excel", "PivotTables", "Power Query", "VBA Macros", "Microsoft Office"]
+  },
+  {
+    category: "Version Control",
+    tags: ["Git", "GitHub", "JIRA", "Confluence"]
+  },
+  {
+    category: "Digital Analytics",
+    tags: ["Google Analytics", "Adobe Analytics"]
+  },
+  {
+    category: "ERP & CRM",
+    tags: ["SAP", "NetSuite", "Salesforce", "Zoho CRM", "Bloomberg", "Oracle Financials"]
+  },
+  {
+    category: "Other Skills",
+    tags: ["Data Storytelling", "Data Wrangling", "Data Cleaning", "Data Transformation", "Windows", "Linux", "Mac iOS"]
+  }
 ];
 
 export const experience = [
