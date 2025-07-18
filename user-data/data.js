@@ -14,42 +14,58 @@ export const skills = [
 
 export const experience = [
   {
-    title: "Johnson & Johnson",
-    duration: "2024 – 2025",
-    subtitle: "Data Scientist",
-    details: [
-      "Built predictive models using Scikit-learn and TensorFlow for hospital readmission and loan default risk.",
-      "Automated ingestion of EDI X12, HL7, and clinical data via Talend and NiFi into Snowflake, improving SLA adherence by 85%.",
-      "Developed real-time Tableau dashboards aligned with CMS QPP, MACRA, and HEDIS standards.",
-      "Enabled HIPAA, CMS, and NCQA compliance via secure FHIR APIs and audit-controlled workflows.",
-    ],
-    tags: ["Python", "Snowflake", "Tableau", "Airflow", "FHIR", "TensorFlow"],
-    icon: "hospital",
-  },
+  title: "Cardinal Health",
+  duration: "2024 – Present",
+  subtitle: "Data Analyst",
+  details: [
+    "Built and deployed hybrid risk prediction models using Scikit-learn and TensorFlow to identify hospital readmission and loan default risks.",
+    "Automated ingestion of EDI X12 (837, 835, 270, 271), HL7, and clinical data using Talend and Apache NiFi into Snowflake, reducing reporting cycle time by 38%.",
+    "Developed real-time Tableau dashboards aligned with CMS QPP, MACRA, and HEDIS standards, improving executive decision-making.",
+    "Refactored Snowflake SQL queries using CTEs and materialized views, reducing dashboard load times by 48%.",
+    "Enabled HIPAA, CMS, and NCQA compliance via FHIR APIs through Azure API Management and robust RBAC audit-controlled workflows.",
+    "Maintained ETL frameworks with SSIS and Talend for Snowflake and Azure Synapse Analytics, improving pipeline reliability and latency by 34%.",
+    "Implemented Apache Airflow to automate EDI workflows, reducing manual interventions by 85% and ensuring SLA compliance.",
+    "Authored stored procedures and recursive CTEs in T-SQL and PL/SQL to support financial modeling and CMS audit requirements."
+  ],
+  tags: ["Python", "Snowflake", "Tableau", "Airflow", "FHIR", "TensorFlow", "Talend", "NiFi", "T-SQL", "Azure"],
+  icon: "hospital"
+},
   {
-    title: "Cognizant",
-    duration: "2023 – 2024",
-    subtitle: "Data Analyst (Credit Risk)",
-    details: [
-      "Built ETL pipelines with SSIS, Informatica, and AWS Glue to consolidate loan data from Oracle and Bloomberg.",
-      "Designed Power BI dashboards with DAX for risk scoring and stakeholder reporting (25% improvement in decision-making).",
-      "Implemented OFAC/AML screening automation, and validated models against CCAR and Basel III standards.",
-    ],
-    tags: ["Power BI", "AWS Glue", "SQL", "AML", "Redshift", "Oracle"],
-    icon: "university",
-  },
+  title: "Cognizant",
+  duration: "2020 – 2023",
+  subtitle: "Data Analyst",
+  details: [
+    "Engineered high-performance SQL queries (Oracle, PostgreSQL) to analyze loan performance, reducing query time by 30%.",
+    "Built predictive models and anomaly detection tools in Python using Pandas and NumPy to identify high-risk loans with 15% precision gain.",
+    "Created Power BI dashboards with DAX for real-time visualization of credit risk KPIs, improving decision efficiency by 25%.",
+    "Designed AWS Glue pipelines to ingest and process large-scale financial datasets in Amazon Redshift, cutting processing time by 20%.",
+    "Performed A/B and statistical hypothesis testing to validate models, ensuring 95% statistical significance for CCAR compliance.",
+    "Integrated multi-source data using SSIS and Informatica from Bloomberg Terminal and Oracle Financials with 99% accuracy.",
+    "Documented BRDs, FRDs, and data dictionaries to support regulatory compliance (SOX, Basel III).",
+    "Conducted OFAC screening and AML validations, reducing regulatory risks by 22% through automated workflows.",
+    "Developed Excel-based financial models with PivotTables, VBA, and Power Query for loan restructuring analysis."
+  ],
+  tags: ["Python", "SQL", "Power BI", "AWS Glue", "Redshift", "Oracle", "Pandas", "SSIS", "Informatica", "AML"],
+  icon: "finance"
+},
   {
-    title: "HCLTech",
-    duration: "2022 – 2023",
-    subtitle: "Data Analyst (Retail & E-Commerce)",
-    details: [
-      "Developed customer segmentation models using RFM and K-Means in Python and R for targeted marketing.",
-      "Built inventory forecasting models (ARIMA, Holt-Winters) and dashboards in Power BI and Google Data Studio.",
-      "Reduced stockouts and holding costs while improving data consistency across CRM, ERP, and POS systems.",
-    ],
-    tags: ["RFM", "K-Means", "ARIMA", "AWS", "Power BI", "Retail Analytics"],
-    icon: "shopping-cart",
-  },
+  title: "HCL Technologies",
+  duration: "2018 – 2020",
+  subtitle: "Data Analyst",
+  details: [
+    "Collaborated with marketing, sales, and supply chain teams to translate business goals into analytics plans in the retail and e-commerce domain.",
+    "Built and maintained ETL pipelines with SSIS and Talend Open Studio integrating POS (Retail Pro, Ginesys), CRM (Salesforce), and ERP (SAP, NetSuite) data.",
+    "Executed data cleansing and validation using Excel Macros and Open Refine to address regional inconsistencies in Indian retail data.",
+    "Performed EDA with Python (Pandas, NumPy, SciPy) and R to uncover market trends and operational inefficiencies.",
+    "Developed RFM segmentation and K-Means clustering models to support targeted marketing and retention strategies.",
+    "Implemented cloud data warehousing solutions using AWS S3, Redshift, and Glue, centralizing high-volume transactional data.",
+    "Created Power BI and Google Data Studio dashboards to visualize key metrics like sales growth, CAC, and conversion rates.",
+    "Conducted time series forecasting with ARIMA and Holt-Winters for inventory demand prediction and supply chain optimization.",
+    "Analyzed e-commerce funnel KPIs (CTR, CR, ROAS) to identify bottlenecks and optimize user conversion flows."
+  ],
+  tags: ["Python", "R", "Power BI", "AWS", "ETL", "Retail", "SSIS", "Talend", "CRM", "K-Means"],
+  icon: "shopping-cart"
+},
 ];
 
 
@@ -183,16 +199,19 @@ export const education = [
     title: "Master of Science in Data Science",
     duration: "2023 – 2024",
     subtitle: "New Jersey Institute of Technology",
-    details: [],
-    tags: ["ML", "Big Data", "Data Mining", "Cloud", "AI"],
+    details: [
+      "GPA: 4.0/4.0",
+      "Coursework: Machine Learning, Applied Statistics, Data Mining & Analytics, Data Management Systems, Data Analytics with R, Introduction to Big Data, Cloud Computing, Cognitive Computing, Python & Mathematics for ML, Data Visualization & Interpretation"
+    ],
+    tags: ["ML", "Big Data", "Data Mining", "Cloud", "AI", "Statistics", "R", "Python", "Data Visualization"],
     icon: "graduation-cap",
   },
   {
     title: "B.Tech. in Mechanical Engineering",
     duration: "2015 – 2019",
     subtitle: "Dr. A.P.J. Abdul Kalam Technical University",
-    details: [],
-    tags: ["Statistics", "Mathematics", "Thermodynamics"],
+    details: ["CGPA: 3.2/4.0"],
+    tags: ["Statistics", "Mathematics", "Thermodynamics", "Mechanical Systems"],
     icon: "book",
   },
 ];
