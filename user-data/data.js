@@ -1,92 +1,57 @@
 export const bio = [
-  "Hi, I'm Vinay Somawat — a Frontend Engineer with 5+ years of experience building scalable, high-performance web applications using Angular and React.",
-  "I specialize in component architecture, performance optimization, and modern frontend tooling like Storybook, Stencil, and Module Federation. I actively leverage GitHub Copilot and OpenAI APIs to accelerate UI development, automate workflows, and improve developer productivity.",
-  "I’m passionate about clean code, mentoring, and driving engineering excellence through collaboration, automation, and continuous improvement.",
+  "Hi, I'm Aditya Patel — a Data Scientist with hands-on experience in healthcare, finance, and retail domains, specializing in predictive modeling, data engineering, and real-time analytics.",
+  "I've designed end-to-end machine learning pipelines and ETL workflows using tools like Apache NiFi, Talend, Snowflake, Power BI, and AWS. My work spans hospital readmission prediction, credit risk analytics, and customer segmentation.",
+  "I'm passionate about creating scalable, compliant, and insight-driven systems that drive efficiency, reduce cost, and support data-informed decision-making.",
 ];
 
 export const skills = [
-  "JavaScript, TypeScript, Angular, AngularJS, React, HTML5, CSS3, Tailwind CSS, Material UI, Bootstrap",
-  "RxJS, NGXS, NGRX, WebSockets, Module Federation, Signals API, Micro-frontend Architecture",
-  "StencilJS, Storybook, Webpack, Git, GitHub Copilot, OpenAI APIs, Chrome DevTools",
-  "Performance Optimization, Responsive Design, Web Accessibility, Unit Testing, ESLint, Prettier",
+  "Python, SQL, R, MATLAB, T-SQL, PL/SQL",
+  "Scikit-learn, TensorFlow, NumPy, Pandas, statsmodels, Jupyter, Excel Macros",
+  "Talend, Apache NiFi, Apache Airflow, AWS Glue, Redshift, Snowflake, Azure Data Factory",
+  "Power BI, Tableau, Google Data Studio, DAX, SSIS, Informatica PowerCenter",
+  "FHIR, HL7, EDI X12, RBAC, HIPAA, CMS, Basel III, CCAR, AML, OFAC",
 ];
 
 export const experience = [
   {
-    title: "Shiprocket Limited",
-    duration: "September 2023 - Present",
-    subtitle: "Software Engineer – Frontend",
+    title: "Johnson & Johnson",
+    duration: "2024 – 2025",
+    subtitle: "Data Scientist",
     details: [
-      "Migrated 30+ AngularJS modules to Angular 19 using standalone components and lazy loading, improving maintainability and performance.",
-      "Built a reusable design system with StencilJS and Storybook, reducing UI defects by 35% and halving development time for new components.",
-      "Developed a prompt-based courier rule engine with OpenAPI, automating 20+ manual steps and reducing operational workload by 60%.",
-      "Implemented global search with deep linking and keyboard shortcuts, boosting agent task throughput by 30%.",
-      "Integrated GitHub Copilot and ChatGPT into the dev workflow, improving developer productivity by 25%.",
-      "Led mentorship initiatives and enforced code quality through ESLint, Prettier, and Git hooks.",
+      "Built predictive models using Scikit-learn and TensorFlow for hospital readmission and loan default risk.",
+      "Automated ingestion of EDI X12, HL7, and clinical data via Talend and NiFi into Snowflake, improving SLA adherence by 85%.",
+      "Developed real-time Tableau dashboards aligned with CMS QPP, MACRA, and HEDIS standards.",
+      "Enabled HIPAA, CMS, and NCQA compliance via secure FHIR APIs and audit-controlled workflows.",
     ],
-    tags: [
-      "Angular 19",
-      "Stencil",
-      "Storybook",
-      "TypeScript",
-      "OpenAPI",
-      "GitHub Copilot",
-      "ChatGPT",
-    ],
-    icon: "truck",
+    tags: ["Python", "Snowflake", "Tableau", "Airflow", "FHIR", "TensorFlow"],
+    icon: "hospital",
   },
   {
-    title: "Biofourmis India Pvt. Ltd.",
-    duration: "April 2022 - July 2023",
-    subtitle: "Frontend Engineer",
+    title: "Cognizant",
+    duration: "2023 – 2024",
+    subtitle: "Data Analyst (Credit Risk)",
     details: [
-      "Spearheaded micro-frontend architecture using Module Federation, enabling team-level deploy independence.",
-      "Implemented multi-region deployment logic with dynamic API routing and failover, enhancing global reliability.",
-      "Integrated Twilio Video, Countly, and NGXS WebSockets to enable real-time remote patient monitoring and collaboration tools.",
-      "Recognized with the Bravo Award for building multi-region operational support across the platform.",
+      "Built ETL pipelines with SSIS, Informatica, and AWS Glue to consolidate loan data from Oracle and Bloomberg.",
+      "Designed Power BI dashboards with DAX for risk scoring and stakeholder reporting (25% improvement in decision-making).",
+      "Implemented OFAC/AML screening automation, and validated models against CCAR and Basel III standards.",
     ],
-    tags: [
-      "Angular 13",
-      "NGXS",
-      "RxJS",
-      "TypeScript",
-      "Twilio",
-      "Module Federation",
-      "WebSockets",
-    ],
-    icon: "heartbeat",
+    tags: ["Power BI", "AWS Glue", "SQL", "AML", "Redshift", "Oracle"],
+    icon: "university",
   },
   {
-    title: "Novopay Solutions Pvt. Ltd.",
-    duration: "July 2020 - April 2022",
-    subtitle: "Software Engineer",
+    title: "HCLTech",
+    duration: "2022 – 2023",
+    subtitle: "Data Analyst (Retail & E-Commerce)",
     details: [
-      "Developed Aadhaar-enabled banking features (eKYC, cash withdrawal, balance inquiry) for 100K+ retail agents in rural India.",
-      "Created wallet QR-code flow, reducing transaction errors by 25% and increasing user adoption.",
-      "Integrated Clevertap analytics, Freshdesk support, and chatbot tools to cut issue resolution time by 40%.",
+      "Developed customer segmentation models using RFM and K-Means in Python and R for targeted marketing.",
+      "Built inventory forecasting models (ARIMA, Holt-Winters) and dashboards in Power BI and Google Data Studio.",
+      "Reduced stockouts and holding costs while improving data consistency across CRM, ERP, and POS systems.",
     ],
-    tags: [
-      "Angular",
-      "JavaScript",
-      "Bootstrap",
-      "Node.js",
-      "Jenkins",
-      "Clevertap",
-      "Freshdesk",
-    ],
-    icon: "qrcode",
-  },
-  {
-    title: "ThinkPedia LLP",
-    duration: "April 2019 - June 2019",
-    subtitle: "Software Engineer Intern",
-    details: [
-      "Built a social media dashboard with scheduling and analytics capabilities, increasing collaboration efficiency by 50%.",
-    ],
-    tags: ["Angular", "JavaScript", "Bootstrap", "Java", "Spring Boot"],
-    icon: "group",
+    tags: ["RFM", "K-Means", "ARIMA", "AWS", "Power BI", "Retail Analytics"],
+    icon: "shopping-cart",
   },
 ];
+
 
 export const trekking = [
   {
@@ -145,7 +110,7 @@ export const trekking = [
     level: "Easy",
   },
 ];
-
+/*
 export const passes = [
   {
     name: "Baralacha La Pass",
@@ -211,28 +176,23 @@ export const passes = [
     icon: "hiking",
   },
 ];
+*/
 
 export const education = [
   {
-    title: "B.Tech. in Computer Science and Engineering",
-    duration: "2016 - 2020",
-    subtitle: "National Institute of Technology, Warangal",
-    details: [],
-    tags: [
-      "Data Structures",
-      "Algorithms",
-      "Database",
-      "Computer Networks",
-      "Cloud Computing",
-    ],
+    title: "Master of Science in Data Science",
+    duration: "2023 – 2024",
+    subtitle: "New Jersey Institute of Technology",
+    details: [4.0 GPA],
+    tags: ["ML", "Big Data", "Data Mining", "Cloud", "AI"],
     icon: "graduation-cap",
   },
   {
-    title: "Class 12th in Science and Mathematics",
-    duration: "",
-    subtitle: "Board of Secondary Education, Rajasthan",
-    details: [],
-    tags: ["Physics", "Chemistry", "Mathematics"],
+    title: "B.Tech. in Mechanical Engineering",
+    duration: "2015 – 2019",
+    subtitle: "Dr. A.P.J. Abdul Kalam Technical University",
+    details: [3.2 GPA],
+    tags: ["Statistics", "Mathematics", "Thermodynamics"],
     icon: "book",
   },
 ];
@@ -242,12 +202,12 @@ export const footer = [
     label: "Links",
     data: [
       {
-        text: "Buy me a coffee",
-        link: "https://www.buymeacoffee.com/r194dME8y",
+        text: "GitHub",
+        link: "https://github.com/AdityaPatel1068",
       },
       {
-        text: "Github",
-        link: "https://github.com/vinaysomawat/vinaysomawat.github.io",
+        text: "Portfolio Website",
+        link: "https://theadityapatel.com",
       },
     ],
   },
@@ -255,13 +215,13 @@ export const footer = [
     label: "Pages",
     data: [
       {
-        text: "Trekking & Himalayan Pass Adventures",
-        link: "./pages/adventure.html",
+        text: "Projects",
+        link: "./pages/projects.html",
       },
     ],
   },
   {
     label: "copyright-text",
-    data: ["Made with love by Vinay Somawat"],
+    data: ["Made with purpose by Aditya Patel"],
   },
 ];
