@@ -281,7 +281,6 @@ populateSkills(skills, "skills");
 
 fetchBlogsFromMedium(medium);
 fetchReposFromGit(gitRepo);
-fetchGitConnectedData(gitConnected);
 
 populateExp_Edu(experience, "experience");
 populateExp_Edu(education, "education");
