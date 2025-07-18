@@ -92,6 +92,6 @@ window.addEventListener("DOMContentLoaded", async () => {
     const data = await get(
       `https://leetcode-stats-api.herokuapp.com/${username}`
     );
-    render(leetcodeCardTemplate(data), el);
+    render(leetcodeCardTemplate(data,username), el);
   });
 });
