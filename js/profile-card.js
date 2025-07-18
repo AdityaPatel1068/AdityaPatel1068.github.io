@@ -5,47 +5,6 @@ async function get(url) {
   return resp.json();
 }
 
-function stackCardTemplate(user) {
-  const {
-    profile_image,
-    link,
-    reputation,
-    badge_counts: { gold, silver, bronze },
-    user_id
-  } = user;
-
-  const username = link.replace("https://", "").replace(`/users/${user_id}`, "");
-  return html`
-    <a href="${link}" target="_blank" class="profile-card">
-      <div class="profile-header">
-        <img
-          class="profile-avatar"
-          src="${profile_image}"
-          alt="StackOverflow avatar"
-        />
-        <div>
-          <div class="profile-badge badge-stack">StackOverflow</div>
-          <p class="profile-url">${username}</p>
-        </div>
-      </div>
-      <div class="profile-stats">
-        ${[
-          { label: "REPUTATION", value: reputation },
-          { label: "GOLD", value: gold },
-          { label: "SILVER", value: silver },
-          { label: "BRONZE", value: bronze },
-        ].map(
-          (stat) => html`
-            <div>
-              <p class="stat-label">${stat.label}</p>
-              <p class="stat-value">${stat.value}</p>
-            </div>
-          `
-        )}
-      </div>
-    </a>
-  `;
-}
 
 function githubCardTemplate(user) {
   const { avatar_url, public_repos, followers, html_url, following } = user;
@@ -80,7 +39,7 @@ function githubCardTemplate(user) {
 function leetcodeCardTemplate(data) {
   const { totalSolved, totalQuestions, acceptanceRate, ranking } = data;
 
-  const leetUrl = "https://leetcode.com/vinaysomawat/";
+  const leetUrl = "https://leetcode.com/Rexus_Reborn/";
 
   return html`
     <a href="${leetUrl}" target="_blank" class="profile-card">
