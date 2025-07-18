@@ -17,6 +17,7 @@ export const experience = [
   title: "Cardinal Health",
   duration: "2024 – Present",
   subtitle: "Data Analyst",
+  logo: "images/cardinalhealth.png",
   details: [
     "Built and deployed hybrid risk prediction models using Scikit-learn and TensorFlow to identify hospital readmission and loan default risks.",
     "Automated ingestion of EDI X12 (837, 835, 270, 271), HL7, and clinical data using Talend and Apache NiFi into Snowflake, reducing reporting cycle time by 38%.",
@@ -34,6 +35,7 @@ export const experience = [
   title: "Cognizant",
   duration: "2020 – 2023",
   subtitle: "Data Analyst",
+  logo: "images/cognizant.png",
   details: [
     "Engineered high-performance SQL queries (Oracle, PostgreSQL) to analyze loan performance, reducing query time by 30%.",
     "Built predictive models and anomaly detection tools in Python using Pandas and NumPy to identify high-risk loans with 15% precision gain.",
@@ -52,6 +54,7 @@ export const experience = [
   title: "HCL Technologies",
   duration: "2018 – 2020",
   subtitle: "Data Analyst",
+  logo: "images/hcl.png",
   details: [
     "Collaborated with marketing, sales, and supply chain teams to translate business goals into analytics plans in the retail and e-commerce domain.",
     "Built and maintained ETL pipelines with SSIS and Talend Open Studio integrating POS (Retail Pro, Ginesys), CRM (Salesforce), and ERP (SAP, NetSuite) data.",
@@ -199,6 +202,7 @@ export const education = [
     title: "Master of Science in Data Science",
     duration: "2023 – 2024",
     subtitle: "New Jersey Institute of Technology",
+    logo: "images/njit.png",
     details: [
       "GPA: 4.0/4.0",
       "Coursework: Machine Learning, Applied Statistics, Data Mining & Analytics, Data Management Systems, Data Analytics with R, Introduction to Big Data, Cloud Computing, Cognitive Computing, Python & Mathematics for ML, Data Visualization & Interpretation"
@@ -210,6 +214,7 @@ export const education = [
     title: "B.Tech. in Mechanical Engineering",
     duration: "2015 – 2019",
     subtitle: "Dr. A.P.J. Abdul Kalam Technical University",
+    logo: "images/aktu.png",
     details: ["CGPA: 3.2/4.0"],
     tags: ["Statistics", "Mathematics", "Thermodynamics", "Mechanical Systems"],
     icon: "book",
