@@ -110,7 +110,7 @@ export const trekking = [
     level: "Easy",
   },
 ];
-/*
+
 export const passes = [
   {
     name: "Baralacha La Pass",
@@ -176,7 +176,7 @@ export const passes = [
     icon: "hiking",
   },
 ];
-*/
+
 
 export const education = [
   {
