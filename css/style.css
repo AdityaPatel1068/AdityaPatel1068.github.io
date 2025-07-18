@@ -121,16 +121,19 @@ figure figcaption {
 }
 @media screen and (max-width: 768px) {
   #colorlib-aside {
-    width: 300px;
-    -moz-transform: translateX(-300px);
-    -webkit-transform: translateX(-300px);
-    -ms-transform: translateX(-300px);
-    -o-transform: translateX(-300px);
-    transform: translateX(-300px);
-    padding-top: 4em;
+    position: relative;       /* ✨ was: fixed (in base CSS), now relative */
+    width: 100%;              /* ✨ full width */
+    transform: none;          /* ✨ disables slide-out */
+    padding-top: 2em;         /* ✨ keep padding consistent */
     background-color: #f9bf3f;
-    height: -webkit-fill-available;
-    left: 0px;
+    height: auto;             /* ✨ avoid -webkit-fill-available */
+    left: 0;
+    z-index: auto;            /* ✨ removes stacking over content */
+  }
+
+  #colorlib-main {
+    width: 100%;              /* ✨ makes main content full width */
+    padding: 0 1em;
   }
 }
 
