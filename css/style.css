@@ -434,12 +434,25 @@ body.offcanvas .colorlib-nav-toggle {
   font-weight: 600;
   font-family: "Montserrat", Georgia, serif;
 }
-.timeline-icon.logo-icon img {
-  width: 36px;
-  height: 36px;
+.timeline-icon.logo-icon {
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
-  object-fit: contain;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  box-shadow: 0 0 0 5px #f2f3f7;
 }
+
+.timeline-icon.logo-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
 .timeline-centered {
   position: relative;
   margin-bottom: 30px;
