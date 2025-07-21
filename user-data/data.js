@@ -68,22 +68,24 @@ export const skills = [
 ];
 
 export const experience = [
-  {
+{
   title: "Cardinal Health",
   duration: "2024 – Present",
   subtitle: "Data Analyst",
   logo: "images/cardinalhealth.png",
   details: [
-    "Built and deployed hybrid risk prediction models using Scikit-learn and TensorFlow to identify hospital readmission and loan default risks.",
-    "Automated ingestion of EDI X12 (837, 835, 270, 271), HL7, and clinical data using Talend and Apache NiFi into Snowflake, reducing reporting cycle time by 38%.",
-    "Developed real-time Tableau dashboards aligned with CMS QPP, MACRA, and HEDIS standards, improving executive decision-making.",
-    "Refactored Snowflake SQL queries using CTEs and materialized views, reducing dashboard load times by 48%.",
-    "Enabled HIPAA, CMS, and NCQA compliance via FHIR APIs through Azure API Management and robust RBAC audit-controlled workflows.",
-    "Maintained ETL frameworks with SSIS and Talend for Snowflake and Azure Synapse Analytics, improving pipeline reliability and latency by 34%.",
-    "Implemented Apache Airflow to automate EDI workflows, reducing manual interventions by 85% and ensuring SLA compliance.",
-    "Authored stored procedures and recursive CTEs in T-SQL and PL/SQL to support financial modeling and CMS audit requirements."
+    "Orchestrated Azure Data Factory (ADF) pipelines to consolidate EHR (Epic, Cerner), payer (QNXT, Facets), and claims (EDI 837/835) data into a centralized Azure Data Lake, enabling longitudinal insights at patient and provider levels.",
+    "Integrated multisource healthcare data into a unified data model, improving analytics-ready coverage by 97% across clinical, claims, and enrollment domains.",
+    "Automated end-to-end ETL workflows using SSIS, Talend, and ADF to support real-time ingestion, transformation, deduplication, and validation of healthcare data.",
+    "Standardized healthcare vocabularies including ICD-10, CPT, LOINC, HL7, and EDI formats (837, 835) into a normalized schema for consistent reporting and analytics.",
+    "Built HIPAA-compliant governance by embedding audit trails, role-based access, and lineage tracking, ensuring full compliance with CMS and HEDIS standards.",
+    "Enabled Snowflake data auditing via access history tables, security policies, and custom UDFs for Medicare and payer reporting traceability.",
+    "Designed and optimized complex SQL queries in Oracle and Snowflake to support risk stratification, cost analysis, and HEDIS/QARR metric calculations.",
+    "Performed unsupervised machine learning (e.g., k-means clustering) in Python to segment populations by risk tiers for targeted care management programs.",
+    "Developed interactive Tableau dashboards using LOD expressions and parameters to track patient flow, provider utilization, and chronic condition trends.",
+    "Managed QA test cycles using HP ALM, including test case authoring, execution logging, and defect tracking with full traceability to BRD/FRD artifacts."
   ],
-  tags: ["Python", "Snowflake", "Tableau", "Airflow", "FHIR", "TensorFlow", "Talend", "NiFi", "T-SQL", "Azure"],
+  tags: ["Python", "Azure Data Factory", "Snowflake", "Tableau", "ADF", "Talend", "SSIS", "Oracle", "FHIR", "EDI", "HIPAA", "K-Means"],
   icon: "hospital"
 },
   {
