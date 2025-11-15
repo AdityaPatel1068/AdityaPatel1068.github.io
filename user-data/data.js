@@ -66,7 +66,7 @@ export const skills = [
     tags: ["Data Storytelling", "Data Wrangling", "Data Cleaning", "Data Transformation", "Windows", "Linux", "Mac iOS"]
   }
 ];
-
+<!-- 
 export const experience = [
 {
   title: "Cardinal Health",
@@ -129,8 +129,7 @@ export const experience = [
   icon: "shopping-cart"
 },
 ];
-
-
+-->
 export const trekking = [
   {
     name: "Kheerganga Trek",
